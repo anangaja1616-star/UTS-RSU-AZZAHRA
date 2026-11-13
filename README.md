@@ -7,9 +7,9 @@
 [![Midtrans](https://img.shields.io/badge/Midtrans-Payment_Gateway_API-002B49?style=for-the-badge)](https://midtrans.com)
 [![Status](https://img.shields.io/badge/Status-Completed%20%26%20Tested-success?style=for-the-badge)](#)
 
-> **Repositori Resmi Proyek Tugas Akhir / Skripsi D-III Sistem Informasi**  
+> **UTS**  
 > **Universitas Muhammadiyah Metro**  
-> **Penyusun:** Sulung Yogi Prasetya (NPM: 14410041)  
+> **Penyusun:** Yulian Anang Makruf (NPM: 24430027)  
 > **Instansi Mitra:** Rumah Sakit Umum (RSU) Az-Zahra Kalirejo, Lampung Tengah  
 
 ---
@@ -63,13 +63,13 @@ Sistem Informasi Pengolahan Data Gaji Karyawan RSU Az-Zahra Kalirejo merupakan a
 
 ## 📊 Perancangan Sistem & Diagram
 
-Semua diagram dirancang dengan standar akademis D-III Sistem Informasi, beresolusi tinggi (300 DPI), serta bebas tumpang tindih (*zero overflow & zero text clipping*). File original tersedia pada folder `diagram_images` / `diagram images`.
+Semua diagram dirancang dengan standar akademis D-III Sistem Informasi, beresolusi tinggi (300 DPI), serta bebas tumpang tindih (*zero overflow & zero text clipping*). File original tersedia pada folder `diagram_images`.
 
 ### 1. Flowchart Aliran Sistem Informasi (ASI) Swimlane 4 Jalur
 Diagram ini memetakan pemisahan wewenang (*Separation of Duties*) antara **Karyawan/Dokter**, **Bendahara Keuangan**, **Direktur Rumah Sakit**, dan **Payment Gateway Midtrans**.
 
 <p align="center">
-  <img src="diagram%20images/flowchart_asi_swimlane.png" alt="Flowchart Aliran Sistem Informasi ASI Swimlane 4 Jalur" width="850">
+  <img src="diagram_images/flowchart_asi_swimlane.png" alt="Flowchart Aliran Sistem Informasi ASI Swimlane 4 Jalur" width="850">
 </p>
 <p align="center"><em>Gambar 1: Aliran Sistem Informasi (ASI) Swimlane 4 Jalur Wewenang</em></p>
 
@@ -79,7 +79,7 @@ Diagram ini memetakan pemisahan wewenang (*Separation of Duties*) antara **Karya
 Diagram alur aktivitas logika sistem dari pembukaan periode baru, input presensi & tindakan, eksekusi kalkulasi formula 3NF, otorisasi Direktur, integrasi transfer Midtrans, hingga penerbitan slip gaji.
 
 <p align="center">
-  <img src="diagram%20images/activity_flowchart_penggajian.png" alt="Activity Flowchart Siklus Penggajian End-to-End" width="850">
+  <img src="diagram_images/activity_flowchart_penggajian.png" alt="Activity Flowchart Siklus Penggajian End-to-End" width="850">
 </p>
 <p align="center"><em>Gambar 2: Activity Flowchart Logika Penggajian End-to-End</em></p>
 
@@ -89,7 +89,7 @@ Diagram alur aktivitas logika sistem dari pembukaan periode baru, input presensi
 Memodelkan aliran data masukan dan keluaran antara 4 entitas eksternal (*Admin IT*, *Bendahara*, *Direktur*, *Karyawan*, serta *Midtrans API*) dengan Sistem Penggajian Online.
 
 <p align="center">
-  <img src="diagram%20images/dfd_level_0_konteks.png" alt="Data Flow Diagram DFD Level 0 Konteks" width="850">
+  <img src="diagram_images/dfd_level_0_konteks.png" alt="Data Flow Diagram DFD Level 0 Konteks" width="850">
 </p>
 <p align="center"><em>Gambar 3: Data Flow Diagram (DFD) Level 0 / Diagram Konteks</em></p>
 
@@ -99,7 +99,7 @@ Memodelkan aliran data masukan dan keluaran antara 4 entitas eksternal (*Admin I
 Memetakan 15 fungsionalitas utama sistem ke dalam 4 modul utama (Autentikasi, Master Data, Kalkulasi & Approval, serta Disbursement Online).
 
 <p align="center">
-  <img src="diagram%20images/usecase_diagram_penggajian.png" alt="Use Case Diagram UML Sistem Penggajian" width="850">
+  <img src="diagram_images/usecase_diagram_penggajian.png" alt="Use Case Diagram UML Sistem Penggajian" width="850">
 </p>
 <p align="center"><em>Gambar 4: Use Case Diagram UML Sistem Penggajian RSU Az-Zahra</em></p>
 
@@ -109,7 +109,7 @@ Memetakan 15 fungsionalitas utama sistem ke dalam 4 modul utama (Autentikasi, Ma
 Rancangan basis data relasional 3NF yang menghubungkan 7 tabel utama tanpa anomali data (*insertion*, *update*, atau *deletion anomaly*).
 
 <p align="center">
-  <img src="diagram%20images/erd_basis_data_penggajian.png" alt="Entity Relationship Diagram ERD Basis Data 3NF" width="850">
+  <img src="diagram_images/erd_basis_data_penggajian.png" alt="Entity Relationship Diagram ERD Basis Data 3NF" width="850">
 </p>
 <p align="center"><em>Gambar 5: Entity Relationship Diagram (ERD) Normalisasi 3NF Terelasi</em></p>
 
@@ -289,9 +289,9 @@ Pengujian dilakukan menggunakan metode **Black Box Testing** pada 12 skenario fu
 
 ## 👨‍🎓 Profil Penyusun
 
-- **Nama Mahasiswa:** Sulung Yogi Prasetya  
-- **NPM:** 14410041  
-- **Program Studi:** D-III Sistem Informasi  
+- **Nama Mahasiswa:** Yulian Anang Makruf  
+- **NPM:** 24430027  
+- **Program Studi:** S1 Ilmu Komputer  
 - **Perguruan Tinggi:** Universitas Muhammadiyah Metro  
 - **Tahun Akademik:** 2026 / 2027  
 - **Instansi Penelitian:** Rumah Sakit Umum (RSU) Az-Zahra Kalirejo, Kab. Lampung Tengah  
@@ -299,7 +299,7 @@ Pengujian dilakukan menggunakan metode **Black Box Testing** pada 12 skenario fu
 ---
 
 <p align="center">
-  <b>© 2026 Sulung Yogi Prasetya (NPM: 14410041) - D-III Sistem Informasi UM Metro</b><br>
+  <b>© 2026 Yulian Anang Makruf (NPM: 24430027) - S1 Ilmu Komputer UM Metro</b><br>
   <i>Sistem Informasi Pengolahan Data Gaji Karyawan RSU Az-Zahra Kalirejo</i>
 </p>
 
